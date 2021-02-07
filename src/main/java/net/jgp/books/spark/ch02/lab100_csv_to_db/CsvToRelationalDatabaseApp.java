@@ -68,8 +68,8 @@ public class CsvToRelationalDatabaseApp {
     // pom.xml
     Properties prop = new Properties();
     prop.setProperty("driver", "org.postgresql.Driver");
-    prop.setProperty("user", "jgp");
-    prop.setProperty("password", "Spark<3Java");
+    prop.setProperty("user", "postgres");
+    prop.setProperty("password", "123456");
 
     // Write in a table called ch02
     df.write()
